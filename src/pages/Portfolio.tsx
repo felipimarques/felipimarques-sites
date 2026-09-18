@@ -4,16 +4,18 @@ import Footer from "@/components/Footer";
 
 export default function Portfolio() {
   return (
-    <div className="min-h-screen bg-[#0B0D0D] text-[#F5F5F5]">
+    <div className="min-h-screen bg-[#f2efe9] text-[#131210]">
       <Header />
       <main className="container-site pb-24 pt-[140px]">
-        <p className="eyebrow">Portfólio</p>
-        <h1 className="h-section mt-4">Projetos reais, em breve.</h1>
-        <p className="mt-4 max-w-xl text-[#B9BEC0]">
-          Esta página vai apresentar 5 projetos autorizados com capturas e links. Sem
-          placeholders fictícios — pendente de materiais reais.
+        <p className="eyebrow">Work — em construção honesta</p>
+        <h1 className="font-display mt-4 max-w-3xl text-[clamp(44px,7vw,100px)] font-black leading-[0.95] tracking-tight">
+          projetos reais, <span className="font-serif-it font-normal">em breve.</span>
+        </h1>
+        <p className="mt-6 max-w-xl text-lg leading-relaxed text-[#131210]/70">
+          Nada de Dribbble fake aqui. Esta página vai apresentar trabalhos autorizados, com
+          capturas e links. Enquanto isso, chama no WhatsApp que eu te mostro na hora.
         </p>
-        <Link to="/" className="btn-secondary mt-8">
+        <Link to="/" className="btn-pill-dark mt-8">
           Voltar para a home
         </Link>
       </main>
