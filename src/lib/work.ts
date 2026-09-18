@@ -5,7 +5,7 @@ export type Project = {
   name: string;
   segment: string;
   scope: string;
-  proof: string;
+  proof?: string;
   url: string;
 };
 
@@ -23,11 +23,11 @@ export const PROJECTS: (Project & { img: string })[] = [
   },
   {
     name: "Elétrica Valdres",
-    segment: "Elétrica · São Paulo",
-    scope: "Site + antes/depois + prova",
+    segment: "Elétrica e ar-condicionado · São Paulo",
+    scope: "Site + orçamento + emergencial",
     proof: "5.0★ no Google · 115 avaliações",
-    url: "https://valdres-site.vercel.app",
-    img: shot("https://valdres-site.vercel.app"),
+    url: "https://eletrica-valdres.vercel.app",
+    img: shot("https://eletrica-valdres.vercel.app"),
   },
   {
     name: "Achou Lavou",
@@ -46,11 +46,10 @@ export const PROJECTS: (Project & { img: string })[] = [
     img: shot("https://gr-site-smoky.vercel.app"),
   },
   {
-    name: "Lume Lavanderia",
-    segment: "Lavanderia 24h · Jaçanã",
-    scope: "Site + ciclo R$15,90 + mapa",
-    proof: "5.0★ no Google · 13 avaliações",
-    url: "https://lume-site-sigma.vercel.app",
-    img: shot("https://lume-site-sigma.vercel.app"),
+    name: "Terreiro Candeeiro",
+    segment: "Umbanda Afro-Diaspórica e Ancestral",
+    scope: "Site institucional",
+    url: "https://terreirocandieiro.org",
+    img: shot("https://terreirocandieiro.org"),
   },
 ];

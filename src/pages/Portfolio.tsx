@@ -36,7 +36,7 @@ export default function Portfolio() {
                 <div>
                   <h2 className="font-display text-2xl font-black tracking-tight">{p.name}</h2>
                   <p className="mt-1 text-sm font-semibold text-[#131210]/60">{p.segment}</p>
-                  <p className="mt-1 text-sm text-[#131210]/60">{p.scope} · {p.proof}</p>
+                  <p className="mt-1 text-sm text-[#131210]/60">{p.scope}{p.proof ? ` · ${p.proof}` : ""}</p>
                 </div>
                 <a
                   href={p.url}

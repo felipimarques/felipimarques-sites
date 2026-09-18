@@ -46,7 +46,7 @@ export default function SelectedWork() {
               </div>
               <div className="p-5">
                 <p className="font-display text-lg font-extrabold leading-tight">{p.name}</p>
-                <p className="mt-1 text-[13px] font-semibold text-[#131210]/55">{p.segment} · {p.proof}</p>
+                <p className="mt-1 text-[13px] font-semibold text-[#131210]/55">{p.segment}{p.proof ? ` · ${p.proof}` : ""}</p>
               </div>
             </motion.a>
           ))}
