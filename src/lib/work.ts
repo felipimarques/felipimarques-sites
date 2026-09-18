@@ -46,10 +46,10 @@ export const PROJECTS: (Project & { img: string })[] = [
     img: shot("https://gr-site-smoky.vercel.app"),
   },
   {
-    name: "Terreiro Candeeiro",
-    segment: "Umbanda Afro-Diaspórica e Ancestral",
+    name: "Mãe Flávia de Yemanjá",
+    segment: "Yalorixá · Umbanda",
     scope: "Site institucional",
-    url: "https://terreirocandieiro.org",
-    img: shot("https://terreirocandieiro.org"),
+    url: "https://maeflavia.vercel.app",
+    img: shot("https://maeflavia.vercel.app"),
   },
 ];
