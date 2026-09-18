@@ -4,7 +4,7 @@
 export const SITE = {
   brand: "Felipi Marques Sites",
   initials: "FM",
-  domain: "sites.felipimarques.com",
+  domain: "sites.felipimarques.com.br",
   whatsappNumber: "5511977493412",
   whatsappDisplay: "+55 (11) 97749-3412",
   email: "felipimarques@gmail.com",
