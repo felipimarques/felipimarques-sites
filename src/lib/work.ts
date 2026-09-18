@@ -29,14 +29,6 @@ export const PROJECTS: (Project & { img: string })[] = [
     img: shot("https://eletrica-valdres.vercel.app"),
   },
   {
-    name: "Lume Lavanderia",
-    segment: "Lavanderia 24h · Jaçanã",
-    scope: "Site + ciclo R$15,90 + mapa",
-    proof: "5.0★ no Google · 13 avaliações",
-    url: "https://lume-site-sigma.vercel.app",
-    img: shot("https://lume-site-sigma.vercel.app"),
-  },
-  {
     name: "GR Elétrica",
     segment: "Elétrica & CFTV · Santo André",
     scope: "Site + chat + portfólio de obras",
