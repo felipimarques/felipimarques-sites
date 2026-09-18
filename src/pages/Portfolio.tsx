@@ -28,6 +28,10 @@ export default function Portfolio() {
                     loading="lazy"
                     width={1200}
                     height={900}
+                    onError={(e) => {
+                      const el = e.target as HTMLImageElement;
+                      if (p.fallback && el.src !== p.fallback) el.src = p.fallback;
+                    }}
                     className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.03]"
                   />
                 </div>

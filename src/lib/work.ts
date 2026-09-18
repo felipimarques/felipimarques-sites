@@ -12,7 +12,7 @@ export type Project = {
 const shot = (url: string) =>
   `https://image.thum.io/get/width/1200/crop/900/noanimate/${url}`;
 
-export const PROJECTS: (Project & { img: string })[] = [
+export const PROJECTS: (Project & { img: string; fallback?: string })[] = [
   {
     name: "Fjuris",
     segment: "Correspondência Jurídica · São Paulo",
@@ -21,12 +21,12 @@ export const PROJECTS: (Project & { img: string })[] = [
     img: shot("https://site-jet-omega-78.vercel.app"),
   },
   {
-    name: "Elétrica Valdres",
-    segment: "Elétrica e ar-condicionado · São Paulo",
-    scope: "Site + orçamento + emergencial",
-    proof: "5.0★ no Google · 115 avaliações",
-    url: "https://eletrica-valdres.vercel.app",
-    img: shot("https://eletrica-valdres.vercel.app"),
+    name: "Lume Lavanderia",
+    segment: "Lavanderia 24h · Jaçanã",
+    scope: "Site + ciclo R$15,90 + mapa",
+    proof: "5.0★ no Google · 13 avaliações",
+    url: "https://lume-site-sigma.vercel.app",
+    img: shot("https://lume-site-sigma.vercel.app"),
   },
   {
     name: "GR Elétrica",
@@ -48,6 +48,7 @@ export const PROJECTS: (Project & { img: string })[] = [
     segment: "Plataforma · Feiras e Eventos",
     scope: "Site + plataforma",
     url: "https://rupies.com.br/",
-    img: shot("https://rupies.com.br/"),
+    img: "/work-rupies.png",
+    fallback: shot("https://rupies.com.br/"),
   },
 ];

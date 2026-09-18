@@ -41,6 +41,10 @@ export default function SelectedWork() {
                   loading="lazy"
                   width={800}
                   height={600}
+                  onError={(e) => {
+                    const el = e.target as HTMLImageElement;
+                    if (p.fallback && el.src !== p.fallback) el.src = p.fallback;
+                  }}
                   className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.04]"
                 />
               </div>
