@@ -14,12 +14,11 @@ const shot = (url: string) =>
 
 export const PROJECTS: (Project & { img: string })[] = [
   {
-    name: "Vênus Lavanderia 24h",
-    segment: "Lavanderia self-service · Tucuruvi",
-    scope: "Site + copy + WhatsApp",
-    proof: "4.9★ no Google · 45 avaliações",
-    url: "https://venus-site-eta.vercel.app",
-    img: shot("https://venus-site-eta.vercel.app"),
+    name: "Fjuris",
+    segment: "Correspondência Jurídica · São Paulo",
+    scope: "Site + captação + WhatsApp",
+    url: "https://site-jet-omega-78.vercel.app",
+    img: shot("https://site-jet-omega-78.vercel.app"),
   },
   {
     name: "Elétrica Valdres",
