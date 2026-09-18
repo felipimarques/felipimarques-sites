@@ -43,4 +43,11 @@ export const PROJECTS: (Project & { img: string })[] = [
     url: "https://maeflavia.vercel.app",
     img: shot("https://maeflavia.vercel.app"),
   },
+  {
+    name: "Rupies",
+    segment: "Plataforma · Feiras e Eventos",
+    scope: "Site + plataforma",
+    url: "https://rupies.com.br/",
+    img: shot("https://rupies.com.br/"),
+  },
 ];
